@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "layers": [
+        ["d.rast", "map=slope"]
+      ],
+      "base": "elev_lid792_1m",
+      "scanning_params": {
+        "smooth": 10,
+        "zexag": 2,
+        "numscans": 1,
+        "interpolate": true
+      },
+      "analyses": "jillian.py",
+      "title": "Watersheds and Flow Simulation",
+      "author": "Jillian Greene",
+      "instructions": "Change topography and observe changes water."
+    }
+  ]
+}
